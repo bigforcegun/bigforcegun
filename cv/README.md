@@ -16,17 +16,7 @@ Just open [MD](build/resume.md), [PDF](build/resume.pdf) or [HTML](build/resume.
 
 Follow [JsonResume](https://jsonresume.org/) docs
 
-
 Or just run
-
-### Installation
-
-```shell script
-sudo npm install -g resume-cli
-# sudo npm install -g --unsafe-perm=true resume-cli # if you have issues with installing puppeteer
-```
-
-## Working with resume source
 
 ```shell script
 git clone https://github.com/bigforcegun/bigfocegun.git && cd ./bigforcegun/cv
