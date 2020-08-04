@@ -10,4 +10,4 @@ Always learning and sharing my knowledge with others. <!--  as publicly as possi
 
 ## 📬 Portfolio
 
-All information and files are [here](cv/)
+All information and files are [here](https://github.com/bigforcegun/bigforcegun/tree/master/cv/)
