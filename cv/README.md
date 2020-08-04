@@ -29,8 +29,8 @@ sudo npm install -g resume-cli
 ## Working with resume source
 
 ```shell script
-git clone https://github.com/bigforcegun/bigfocegun.git && cd ./bigforcegun
-resume -h
-resume serve -r cv/resume.ru.json
-resume serve --theme elegant -r cv/resume.json
+git clone https://github.com/bigforcegun/bigfocegun.git && cd ./bigforcegun/cv
+npm install
+npm run serve
+npm run analyze
 ```
