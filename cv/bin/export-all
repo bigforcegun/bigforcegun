@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+npm run export-pdf
+npm run export-html
+npm run export-md

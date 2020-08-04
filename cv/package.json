@@ -1,0 +1,22 @@
+{
+  "name": "bigforcegun-cv",
+  "version": "1.0.0",
+  "description": "main cv",
+  "main": "index.js",
+  "dependencies": {
+    "hackmyresume": "^1.9.0-beta",
+    "jsonresume-theme-elegant-bigforcegun": "github:bigforcegun/jsonresume-theme-elegant#master",
+    "resume-cli": "^1.2.8"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "./node_modules/.bin/resume serve -t elegant",
+    "export-pdf": "RESUME_PUPPETEER_NO_SANDBOX=true ./node_modules/.bin/resume export -t elegant-bigforcegun build/resume.pdf",
+    "export-html": "./node_modules/.bin/resume export -t elegant-bigforcegun build/resume.html",
+    "export-md": "./node_modules/.bin/hackmyresume build resume.json TO build/resume.md",
+    "export-all": "./bin/export-all"
+  },
+  "author": "",
+  "license": "ISC"
+}

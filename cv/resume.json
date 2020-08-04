@@ -1,0 +1,464 @@
+{
+  "basics": {
+    "name": "Марк Вундер",
+    "label": "Software Engineer",
+    "picture": "https://avatars3.githubusercontent.com/u/264697?s=460&u=b1cfe9572e7b0d92a2be12274248d98148ae40ff&v=4",
+    "email": "bigforcegun@gmail.com",
+    "phone": "(912) 555-4321",
+    "website": "https://bigforcegun.com",
+    "summary": "Привет! Меня зовут Вундер Марк. Живу в Санкт-Петербурге. Мне 29 лет.\n\nЯ специализируюсь на разработке уже 10 лет, из которых 8 лет занимаюсь бекендом и devops. Умею применять технологии к месту. Умею разговаривать с бизнесом на языке бизнеса, с разработкой на языке разработки.\n\nОдинаково хорошо работаю как на проектах, так и на продукте. Предпочитаю продукт - больше и глубже погружение. \n\n#### Коротко про технологии\n\n- Легко ориентируюсь в легаси коде\n- Умею работать с \"плохим\" кодом\n- Умею писать тесты, и понимаю их цену\n- Считаю, что сервис без Dockerfile, .gitlab-ci.yml, git и .editorconfig - не сервис\n- Разрабатывал PCI DSS \"совместимый\" платежный шлюз\n- Без метрик мы далеко не уплывем\n- CI/CD и Ansible - это необходимо со старта\n- Понимаю как работает linux в облаке и на десктопе\n- Знаю про сетевые кредиты нв AWS \uD83D\uDE1C\n- Ищу как принести пользу сообществу на основе своего продакшн опыта\n\n#### Профессиональные цели:\n\n- Повышение квалификации себя и команды\n- Работа в сильных командах, обмен опытом\n- Создание отличных команд разработки\n- Вклад с сообщества инструментов и языков программирования",
+    "location": {
+      "address": "",
+      "postalCode": "CA 94115",
+      "city": "Saint-Petersburg",
+      "countryCode": "RU",
+      "region": "Saint-Petersburg"
+    },
+    "profiles": [
+      {
+        "network": "Twitter",
+        "username": "bigforcegun",
+        "url": ""
+      },
+      {
+        "network": "Gitlab",
+        "username": "bigforcegun",
+        "url": "https://gitlab.com/bigforcegun"
+      },
+      {
+        "network": "Github",
+        "username": "bigforcegun",
+        "url": "https://github.com/bigforcegun"
+      },
+      {
+        "network": "Telegram",
+        "username": "bigforcegun",
+        "url": "https://t.me/bigforcegun"
+      }
+    ]
+  },
+  "projects": [
+    {
+      "name": "kupibilet.ru",
+      "description": "Продажа авиабилетов онлайн",
+      "keywords": [
+        "Ruby",
+        "Ruby on Rails",
+        "Mongo",
+        "Mysql",
+        "Redis",
+        "Devops",
+        "Prometheus",
+        "ELK",
+        "Payments",
+        "GDS API",
+        "PCI DSS"
+      ],
+      "roles": [
+        "Разработчик",
+        "Тимлид",
+        "CTO"
+      ],
+      "highlights": [
+        ""
+      ],
+      "type": "application"
+    },
+    {
+      "name": "bonus-box.info",
+      "description": "Система лояльности для сети ресторанов",
+      "keywords": [
+        "Ruby",
+        "Ruby on Rails",
+        "Mysql",
+        "Redis",
+        "Devops"
+      ],
+      "roles": [
+        "Разработчик",
+        "Техлид",
+        "Devops"
+      ],
+      "highlights": [
+        ""
+      ],
+      "type": "application"
+    },
+    {
+      "name": "vikingretail.ru",
+      "description": "Сеть интернет магазинов",
+      "keywords": [
+        "Ruby",
+        "JavaScript",
+        "Mysql",
+        "Postgresql",
+        "PHP"
+      ],
+      "roles": [
+        "Разработчик",
+        "Техлид",
+        "Devops"
+      ],
+      "highlights": [
+        ""
+      ],
+      "type": "application"
+    },
+    {
+      "name": "grandtravelgroup.com",
+      "description": "Онлайн тур агентство",
+      "keywords": [
+        "PHP",
+        "JavaScript",
+        "Mysql",
+        "GDS API",
+        "Payments"
+      ],
+      "roles": [
+        "Разработчик"
+      ],
+      "highlights": [
+        ""
+      ],
+      "type": "application"
+    }
+  ],
+  "references": [
+  ],
+  "work": [
+    {
+      "company": "KUPIBILET.RU",
+      "position": "CTO",
+      "_website": "http://piedpiper.com",
+      "startDate": "2020-01-01",
+      "endDate": "2020-05-01",
+      "summary": "**Обязанности**: \n- Руководство b2c IT-департаментом компании\n- Разработка и документирование процессов команда-команда \n- Работа над процессами взаимодействия бизнеса и IT \n- Оптимизация инфраструктуры",
+      "highlights": [
+        "Онбординг новых команд",
+        "Разработка процессов взаимодействия кор и аджайл команд"
+      ]
+    },
+    {
+      "company": "KUPIBILET.RU",
+      "position": "Бэкэнд-Тимлид",
+      "_website": "http://piedpiper.com",
+      "startDate": "2019-05-01",
+      "endDate": "2020-01-01",
+      "summary": "**Обязанности**: \n- Руководство командой backend разработки\n- Code Review \n- Разработка и документация процессов команды \n- Интеграция и разработка инструментов команды \n- Базовая информационная безопасность\n- Agile / Продуктовый спринт пленинг\n---",
+      "highlights": [
+        "Техлид команды",
+        "Интеграция новых утилит, инструментов, ускоривших разработку/дебаг",
+        "Оптимизация CI/CD для современных сервисов",
+        "Разработка CI/CD для 'легаси' сервисов",
+        "Доработка конвенций внутри отдела",
+        "Лучший спейс в конфле после техписов, задокументированы флоу всех процессов, как разработки, так и взаимодействия с бизнесом",
+        "Оптимизация инфраструктуры/серверной части бекенда компании"
+      ]
+    },
+    {
+      "company": "KUPIBILET.RU",
+      "position": "Backend программист",
+      "_website": "http://piedpiper.com",
+      "startDate": "2017-01-01",
+      "endDate": "2019-05-01",
+      "summary": "**Обязанности**: \n- Разработка и поддержка сервисов компании\n- Backend - rails & Ruby\n- Code Review\n- CI/CD",
+      "highlights": [
+        "Техлид команды",
+        "Опыт разработки платежных шлюзов и интеграций с апи на уровне стандарта PCI DSS",
+        "Подготовка проекта к соответствию стандарту PCI DSS",
+        "Интеграция CI/CD в сервисы разных типов",
+        "Расследование инцидентов падения/плохого поведения инфраструктуры",
+        "Разработка метрик и интеграция системы мониторинга",
+        "Разработка внутренних сервисов/ботов компании"
+      ]
+    },
+    {
+      "company": "Викинг Ритейл",
+      "position": "Программист",
+      "_website": "http://piedpiper.com",
+      "startDate": "2014-05-01",
+      "endDate": "2017-05-01",
+      "summary": "**Обязанности**: \n- Разработка и поддержка сервисов компании\n- Backend-программист Ruby \n- Frontend-программист JavaScript \n- Backend-программист PHP \n- Code review \n- CI/CD\n",
+      "highlights": [
+        "Техлид команды",
+        "Оптимизация и улучшение процессов разработки в компании (CI/CD)",
+        "Опыт разработки сложного ecommerce распределенного движка"
+      ]
+    },
+    {
+      "company": "BonusBox",
+      "position": "Программист",
+      "_website": "http://piedpiper.com",
+      "startDate": "2012-06-01",
+      "endDate": "2016-02-01",
+      "summary": "**Обязанности**: \n- Разработка продукта с нуля\n- Backend-программист Ruby on Rails \n- Backend-программист JavaScript \n- Frontend-программист JavaScript \n- Code review",
+      "highlights": [
+        "Техлид команды",
+        "Опыт разработки продукта с нуля",
+        "Опыт работы над огромным количеством разных интеграций",
+        "Полноценный раздел для сторонних разработчиков + API документация"
+      ]
+    },
+    {
+      "company": "Планета Софт",
+      "position": "Программист",
+      "_website": "http://piedpiper.com",
+      "startDate": "2012-01-01",
+      "endDate": "2012-12-01",
+      "summary": "**Обязанности**: \n- Разработка и поддержка сервисов компании\n- Backend-программист PHP\n- Backend-программист JavaScript \n- Frontend-программист JavaScript",
+      "highlights": [
+        "Поддержка продуктов компании",
+        "Разработка решений для интеграции продуктов компании в другие веб приложения"
+      ]
+    },
+    {
+      "company": "To4kaRu",
+      "position": "Программист",
+      "_website": "http://piedpiper.com",
+      "startDate": "2011-06-01",
+      "endDate": "2011-08-01",
+      "summary": "**Обязанности**: \n- Разработка сайтов и проектов на заказ\n- Backend-программист PHP \n- Frontend-программист JavaScript \n- Проект менеджер",
+      "highlights": [
+        "Опыт разработки единой системы для разработки и управления сайтами проектов"
+      ]
+    },
+    {
+      "company": "Томстудио",
+      "position": "Программист",
+      "_website": "http://piedpiper.com",
+      "startDate": "2011-06-01",
+      "endDate": "2011-08-01",
+      "summary": "**Обязанности**:\n- Разработка сайтов и проектов на заказ \n- Backend-программист PHP \n- Frontend-программист JavaScript",
+      "highlights": []
+    },
+    {
+      "company": "МОПСС",
+      "position": "Программист",
+      "_website": "http://piedpiper.com",
+      "startDate": "2010-09-01",
+      "endDate": "2011-06-01",
+      "summary": "**Обязанности**: \n- Разработка сайтов и проектов на заказ\n- Backend-программист PHP \n- Frontend-программист JavaScript",
+      "highlights": []
+    },
+    {
+      "company": "ЦОИ петроградского района",
+      "position": "Инженер",
+      "_website": "http://piedpiper.com",
+      "startDate": "2012-12-01",
+      "endDate": "2013-12-01",
+      "summary": "**Обязанности**: \n- штатный инженер\n- backend-программист PHP \n- desktop-программист MS BASIC && Delphi\n- Техническая поддержка парка машин",
+      "highlights": [
+        "Опыт разработки базы данных для учета учеников района",
+        "Опыт оптимизации администрирования большого распределенного парка машин"
+      ]
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "Спортивные детские лагеря",
+      "position": "Вожатый",
+      "_website": "http://coderdojo.com/",
+      "startDate": "2005-09-01",
+      "endDate": "2010-06-01",
+      "summary": "Вожатство в различных детских лагерях.",
+      "highlights": []
+    },
+    {
+      "organization": "Мир Репетиторов",
+      "position": "Репетитор",
+      "_website": "http://coderdojo.com/",
+      "startDate": "2008-09-01",
+      "endDate": "2013-01-01",
+      "summary": "Услуги репетитора. Репетиторство в школе.",
+      "highlights": []
+    }
+  ],
+  "education": [
+    {
+      "institution": "РГПУ им. А.И. Герцена",
+      "area": "Факультет: Информационных технологий",
+      "studyType": "Бакалавр",
+      "startDate": "2008-09-01",
+      "endDate": "2010-06-15",
+      "gpa": "0",
+      "courses": [
+        "Разработка программного обеспечения",
+        "Работа с базами данных",
+        "Web разработка",
+        "Десктоп разработка"
+      ]
+    }
+  ],
+  "awards": [],
+  "publications": [],
+  "skills": [
+    {
+      "name": "Team Work",
+      "level": "Middle",
+      "keywords": [
+        "Trello",
+        "Slack",
+        "Slack Bots and Integrations",
+        "Github",
+        "Gitlab",
+        "Jira",
+        "Redmine",
+        "Confluence",
+        "Git book/Other document generators",
+        "MD"
+      ]
+    },
+    {
+      "name": "Development",
+      "level": "Lead",
+      "keywords": [
+        "Tests",
+        "Documentation",
+        "Service Monolith",
+        "Type Checking",
+        "Microservices",
+        "Bash",
+        "MD",
+        "Api Clients"
+      ]
+    },
+    {
+      "name": "Backend Development",
+      "level": "Lead",
+      "keywords": [
+        "Javascript",
+        "Ruby",
+        "OpenApi",
+        "Public Access Api",
+        "Cache",
+        "Message Broker",
+        "Microservices",
+        "RabbitMQ",
+        "Team tools"
+      ]
+    },
+    {
+      "name": "Javascript Development",
+      "level": "Middle",
+      "keywords": [
+        "Express",
+        "Koa",
+        "STRAPI",
+        "Socket.io",
+        "Cli-tools"
+      ]
+    },
+    {
+      "name": "Ruby Development",
+      "level": "Senior",
+      "keywords": [
+        "Ruby",
+        "Rails",
+        "Hanami",
+        "Roda",
+        "Dry-rb",
+        "rom/sequel",
+        "Cli-tools"
+      ]
+    },
+    {
+      "name": "Devops",
+      "level": "Middle",
+      "keywords": [
+        "AWS",
+        "Gitlab CI/CD",
+        "Boot/core config",
+        "Systemd",
+        "Ansible",
+        "Docker",
+        "Docker-swarm",
+        "Docker-compose",
+        "Stack optimisation"
+      ]
+    },
+    {
+      "name": "Monitoring",
+      "level": "Middle",
+      "keywords": [
+        "Prometheus",
+        "Grafana",
+        "ELK",
+        "EFK"
+      ]
+    },
+    {
+      "name": "Data Base",
+      "level": "Middle",
+      "keywords": [
+        "Postgresql",
+        "MongoDb",
+        "memcached",
+        "Redis",
+        "Elastic-search",
+        "Sqlite"
+      ]
+    },
+    {
+      "name": "Team Lead",
+      "level": "Middle",
+      "keywords": [
+        "Team flow",
+        "Development flow",
+        "Documenting",
+        "Code Review",
+        "Team tools",
+        "Base info sec"
+      ]
+    },
+    {
+      "name": "CTO",
+      "level": "Junior",
+      "keywords": [
+        "Team to Team flow",
+        "Development to Business flow",
+        "Documenting",
+        "Infrastructure Optimisation",
+        "Industry standards"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Russian",
+      "fluency": "Native"
+    },
+    {
+      "language": "English",
+      "fluency": "B1"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Иностранные языки",
+      "keywords": [
+        "Английский",
+        "Немецкий"
+      ]
+    },
+    {
+      "name": "Программирование",
+      "keywords": [
+        "Crystal",
+        "Lua",
+        "Golang",
+        "Elixir",
+        "Microservices",
+        "Cli-tools",
+        "Slack/telegram bots",
+        "Mods for games and pet games"
+      ]
+    },
+    {
+      "name": "Путешествия",
+      "keywords": [
+        "Европа",
+        "Азия"
+      ]
+    }
+  ]
+}

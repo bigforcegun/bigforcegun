@@ -1,0 +1,1167 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><meta name="viewport" content="width=device-width, initial-scale=1"/><title>Марк Вундер</title><link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"/><style>@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?z1lat9');
+  src:  url('fonts/icomoon.eot?z1lat9#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?z1lat9') format('truetype'),
+    url('fonts/icomoon.woff?z1lat9') format('woff'),
+    url('fonts/icomoon.svg?z1lat9#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-gitlab .path1:before {
+  content: "\e906";
+  color: rgb(252, 109, 38);
+}
+.icon-gitlab .path2:before {
+  content: "\e907";
+  margin-left: -1em;
+  color: rgb(226, 67, 41);
+}
+.icon-gitlab .path3:before {
+  content: "\e908";
+  margin-left: -1em;
+  color: rgb(252, 109, 38);
+}
+.icon-gitlab .path4:before {
+  content: "\e909";
+  margin-left: -1em;
+  color: rgb(252, 163, 38);
+}
+.icon-gitlab .path5:before {
+  content: "\e90a";
+  margin-left: -1em;
+  color: rgb(226, 67, 41);
+}
+.icon-gitlab .path6:before {
+  content: "\e90b";
+  margin-left: -1em;
+  color: rgb(252, 109, 38);
+}
+.icon-gitlab .path7:before {
+  content: "\e90c";
+  margin-left: -1em;
+  color: rgb(252, 163, 38);
+}
+.icon-gitlab .path8:before {
+  content: "\e90d";
+  margin-left: -1em;
+  color: rgb(226, 67, 41);
+}
+.icon-meetup .path1:before {
+  content: "\e901";
+  color: rgb(255, 255, 255);
+}
+.icon-meetup .path2:before {
+  content: "\e902";
+  margin-left: -1.5em;
+  color: rgb(240, 1, 1);
+}
+.icon-meetup .path3:before {
+  content: "\e903";
+  margin-left: -1.5em;
+  color: rgb(3, 3, 3);
+}
+.icon-blogger:before {
+  content: "\e900";
+}
+.icon-exercism:before {
+  content: "\e601";
+}
+.icon-telegram:before {
+  content: "\e904";
+}
+.icon-flickr:before {
+  content: "\f16e";
+}
+.icon-medium:before {
+  content: "\f23a";
+}
+.icon-heart:before {
+  content: "\f004";
+}
+.icon-book:before {
+  content: "\f02d";
+}
+.icon-linkedin:before {
+  content: "\f08c";
+}
+.icon-twitter:before {
+  content: "\f099";
+}
+.icon-github:before {
+  content: "\f09b";
+}
+.icon-link:before {
+  content: "\f0c1";
+}
+.icon-bars:before {
+  content: "\f0c9";
+}
+.icon-pinterest:before {
+  content: "\f0d2";
+}
+.icon-googleplus:before {
+  content: "\f0d5";
+}
+.icon-circle:before {
+  content: "\f111";
+}
+.icon-code:before {
+  content: "\f121";
+}
+.icon-youtube:before {
+  content: "\f167";
+}
+.icon-stackoverflow:before {
+  content: "\f16c";
+}
+.icon-bitbucket:before {
+  content: "\f171";
+}
+.icon-tumblr:before {
+  content: "\f173";
+}
+.icon-dribbble:before {
+  content: "\f17d";
+}
+.icon-skype:before {
+  content: "\f17e";
+}
+.icon-foursquare:before {
+  content: "\f180";
+}
+.icon-gittip:before {
+  content: "\f184";
+}
+.icon-gratipay:before {
+  content: "\f184";
+}
+.icon-stackexchange:before {
+  content: "\f18d";
+}
+.icon-vimeo:before {
+  content: "\f194";
+}
+.icon-graduation-cap:before {
+  content: "\f19d";
+}
+.icon-language:before {
+  content: "\f1ab";
+}
+.icon-child:before {
+  content: "\f1ae";
+}
+.icon-behance:before {
+  content: "\f1b5";
+}
+.icon-spotify:before {
+  content: "\f1bc";
+}
+.icon-soundcloud:before {
+  content: "\f1be";
+}
+.icon-codepen:before {
+  content: "\f1cb";
+}
+.icon-hackernews:before {
+  content: "\f1d4";
+}
+.icon-lastfm:before {
+  content: "\f202";
+}
+.icon-angellist:before {
+  content: "\f209";
+}
+.icon-facebook:before {
+  content: "\f230";
+}
+.icon-instagram:before {
+  content: "\e905";
+}
+.icon-trophy:before {
+  content: "\e605";
+}
+.icon-office:before {
+  content: "\e606";
+}
+.icon-clock:before {
+  content: "\e60a";
+}
+.icon-reddit:before {
+  content: "\e609";
+}
+.icon-profile:before {
+  content: "\e600";
+}
+.icon-tools:before {
+  content: "\e034";
+}
+.icon-location:before {
+  content: "\e602";
+}
+.icon-mail:before {
+  content: "\e603";
+}
+.icon-phone:before {
+  content: "\e03f";
+}
+.icon-newspaper:before {
+  content: "\e607";
+}
+.icon-chevron-down:before {
+  content: "\e60c";
+}
+.icon-chevron-up:before {
+  content: "\e60d";
+}
+.icon-dots-three-horizontal:before {
+  content: "\e60b";
+}
+.icon-thumbs-up:before {
+  content: "\e604";
+}
+.icon-board:before {
+  content: "\e608";
+}
+
+.relative {
+  position: relative;
+}
+.clear-margin {
+  margin: 0;
+}
+.space-top {
+  margin-top: 10px;
+}
+.space-right {
+  margin-right: 10px;
+}
+.space-bottom {
+  margin-bottom: 10px;
+}
+.mr-5 {
+  margin-right: 5px;
+}
+.mr-10 {
+  margin-right: 10px;
+}
+.ml-5 {
+  margin-left: 5px;
+}
+.labels {
+  line-height: 2;
+}
+.label-keyword {
+  display: inline-block;
+  background: #7eb0db;
+  color: white;
+  font-size: 0.9em;
+  padding: 5px;
+  border: 1px solid #357ebd;
+  margin-right: 5px;
+}
+.label-keyword:last-child {
+  margin-right: 0;
+}
+.link-disguise {
+  color: inherit;
+}
+.link-disguise:hover {
+  color: inherit;
+}
+.clear-margin {
+  margin: 0;
+}
+@media (max-width: 992px) {
+  .clear-margin-sm {
+    margin-bottom: 0;
+  }
+}
+.fs-lg {
+  font-size: 1.33333333em;
+  line-height: 0.75em;
+  vertical-align: -15%;
+}
+.fs-2x {
+  font-size: 2em;
+}
+.fs-3x {
+  font-size: 3em;
+}
+.fs-4x {
+  font-size: 4em;
+}
+.btn-circle-sm {
+  width: 28px;
+  height: 28px;
+  line-height: 28px;
+  border-radius: 50%;
+  text-align: center;
+  padding: 0;
+  outline: none !important;
+}
+/* the version when the icon file is last updated */
+@font-face {
+  font-family: 'jst-elegant';
+  src: url("https://unpkg.com/jsonresume-theme-elegant@1.12.0/assets/icomoon/fonts/icomoon.eot?f218wo");
+  src: url("https://unpkg.com/jsonresume-theme-elegant@1.12.0/assets/icomoon/fonts/icomoon.eot?f218wo#iefix") format('embedded-opentype'), url("https://unpkg.com/jsonresume-theme-elegant@1.12.0/assets/icomoon/fonts/icomoon.ttf?f218wo") format('truetype'), url("https://unpkg.com/jsonresume-theme-elegant@1.12.0/assets/icomoon/fonts/icomoon.woff?f218wo") format('woff'), url("https://unpkg.com/jsonresume-theme-elegant@1.12.0/assets/icomoon/fonts/icomoon.svg?f218wo#icomoon") format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+[class^="icon-"],
+[class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'jst-elegant' !important;
+}
+body {
+  background: #f0f0f0;
+  color: #333;
+}
+.main {
+  padding: 5px;
+}
+.card {
+  background: white;
+  border: 1px solid #e6e6e6;
+  border-radius: 3px;
+  min-height: 300px;
+  padding: 10px 0;
+}
+.card-nested {
+  min-height: 0;
+  border-width: 1px 0 0 0;
+}
+.card-nested:before,
+.card-nested:after {
+  content: " ";
+  display: table;
+}
+.card-nested:after {
+  clear: both;
+}
+@media (max-width: 480px) {
+  .card-nested {
+    padding: 5px 0;
+  }
+}
+.background-card {
+  padding: 10px 20px;
+}
+.card-wrapper {
+  padding: 5px;
+}
+@media (max-width: 992px) {
+  .card-wrapper {
+    float: none !important;
+  }
+}
+.background-details .detail {
+  display: table;
+}
+.background-details .detail .icon {
+  min-width: 45px;
+  max-width: 45px;
+  text-align: center;
+}
+.background-details .detail .info {
+  width: 100%;
+}
+.background-details .detail .title,
+.background-details .detail .icon {
+  color: #707070;
+}
+.background-details .detail .mobile-title {
+  display: none;
+}
+@media (max-width: 480px) {
+  .background-details .detail .mobile-title {
+    display: inline-block;
+    margin-left: 5px;
+    font-weight: bold;
+    text-transform: uppercase;
+    vertical-align: middle;
+  }
+}
+.background-details .detail .icon,
+.background-details .detail .info {
+  display: table-cell;
+  padding: 0 10px;
+}
+@media (max-width: 480px) {
+  .background-details .detail {
+    display: block;
+  }
+  .background-details .detail .icon {
+    max-width: inherit;
+    min-width: inherit;
+    text-align: left;
+  }
+  .background-details .detail .icon,
+  .background-details .detail .info {
+    display: block;
+    padding: 10px 0;
+  }
+  .background-details .detail .title {
+    display: none;
+  }
+}
+.info .content.has-sidebar {
+  width: 80%;
+  box-sizing: border-box;
+  float: left;
+  padding: 0 10px;
+  border-right: 1px solid #cdcdcd;
+}
+@media (max-width: 992px) {
+  .info .content.has-sidebar {
+    width: 100%;
+    border-right: 0;
+  }
+}
+@media (max-width: 480px) {
+  .info .content.has-sidebar {
+    padding: 0 2px;
+  }
+}
+.info .sidebar {
+  margin-left: 80%;
+  box-sizing: border-box;
+  padding: 10px;
+}
+@media (max-width: 480px) {
+  ul {
+    padding-left: 25px;
+  }
+}
+.current-event {
+  font-size: 8px;
+  color: #5ACE24;
+  position: absolute;
+  right: 100%;
+  top: 4px;
+  left: -10px;
+}
+.mop-wrapper > p:last-child {
+  margin: 0;
+}
+/*
+    Credits: http://codyhouse.co/demo/smart-fixed-navigation/index.html
+*/
+.floating-nav-trigger {
+  width: 50px;
+  height: 50px;
+  -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.24);
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.24);
+  -webkit-transition: background-color 0.5s ease;
+  -o-transition: background-color 0.5s ease;
+  transition: background-color 0.5s ease;
+  display: block;
+  border-radius: 50%;
+  text-align: center;
+  background-color: white;
+  font-size: 1.5em;
+  color: #357ebd;
+  z-index: 100;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  text-decoration: none !important;
+}
+.floating-nav-trigger > [class^="icon-"],
+.floating-nav-trigger [class*=" icon-"],
+.floating-nav-trigger > .close-icon {
+  line-height: 50px;
+}
+.floating-nav-trigger .close-icon {
+  display: none;
+}
+.floating-nav-trigger:hover {
+  color: #1f496e;
+  background-color: #e6e6e6;
+}
+.floating-nav-trigger.is-open {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+.floating-nav-trigger.is-open .close-icon {
+  display: inherit;
+}
+.floating-nav-trigger.is-open .icon-bars {
+  display: none;
+}
+.floating-nav-trigger.is-open:hover {
+  background-color: white;
+}
+.floating-nav {
+  -webkit-transform: scale(0);
+  -ms-transform: scale(0);
+  -o-transform: scale(0);
+  transform: scale(0);
+  -webkit-transform-origin: 100% 100%;
+  -moz-transform-origin: 100% 100%;
+  -ms-transform-origin: 100% 100%;
+  transform-origin: 100% 100%;
+  -webkit-transition: transform 0.3s, visibility 0s 0.3s;
+  -o-transition: transform 0.3s, visibility 0s 0.3s;
+  transition: transform 0.3s, visibility 0s 0.3s;
+  -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.24);
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.24);
+  position: fixed;
+  z-index: 50;
+  right: 10px;
+  bottom: 10px;
+  background-color: white;
+  width: 90%;
+  max-width: 400px;
+  visibility: hidden;
+  overflow: hidden;
+}
+.floating-nav ul {
+  font-size: 1.2em;
+  margin: 0;
+}
+.floating-nav ul li {
+  border-bottom: 1px solid #eff2f6;
+}
+.floating-nav ul li a {
+  padding: 20px;
+  text-decoration: none;
+  color: #357ebd;
+  display: block;
+}
+.floating-nav ul li a:hover {
+  color: #1f496e;
+}
+.floating-nav ul li:last-child {
+  border-bottom: 0;
+}
+.floating-nav.is-visible {
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  -o-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: transform 0.3s, visibility 0s 0s;
+  -o-transition: transform 0.3s, visibility 0s 0s;
+  transition: transform 0.3s, visibility 0s 0s;
+  visibility: visible;
+}
+@media (max-width: 992px) {
+  .profile-card-wrapper {
+    position: relative;
+  }
+}
+.profile-card-wrapper .profile-card {
+  padding: 10px;
+}
+.profile-pic {
+  padding: 20px 0;
+}
+@media (max-width: 992px) {
+  .profile-pic {
+    padding: 10px 0;
+  }
+}
+.profile-pic img {
+  width: 100px;
+  height: 100px;
+}
+@media (max-width: 992px) {
+  .name {
+    margin-top: 10px;
+  }
+}
+@media (max-width: 768px) {
+  .contact-details {
+    text-align: center;
+  }
+}
+.contact-details .detail {
+  display: table;
+  padding: 10px 0;
+}
+.contact-details .detail .icon {
+  padding: 0 10px;
+  color: #707070;
+}
+@media (max-width: 992px) {
+  .contact-details .detail .icon {
+    padding: 0 5px 0 0;
+  }
+}
+.contact-details .detail .info {
+  font-size: 0.8em;
+}
+.contact-details .detail .icon,
+.contact-details .detail .info {
+  display: table-cell;
+  vertical-align: middle;
+}
+@media (max-width: 768px) {
+  .contact-details .detail {
+    position: relative;
+    float: left;
+    width: 100%;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+@media (max-width: 992px) {
+  .contact-details .detail {
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding: 10px;
+  }
+  .contact-details .detail .icon,
+  .contact-details .detail .info {
+    display: inline-block;
+  }
+}
+@media (max-width: 992px) and (min-width: 768px) {
+  .contact-details .detail {
+    float: left;
+    width: 25%;
+  }
+}
+.social-links {
+  line-height: 2.5;
+}
+.social-link {
+  margin-left: 5px;
+  min-width: 35px;
+  display: inline-block;
+}
+.social-link:first-child {
+  margin-left: 0;
+}
+.social-link:hover {
+  text-decoration: none;
+}
+.link-github {
+  color: #454545;
+}
+.link-github:hover,
+.link-github:focus {
+  text-decoration: none;
+  color: #2b2b2b;
+}
+.link-twitter {
+  color: #33ccff;
+}
+.link-twitter:hover,
+.link-twitter:focus {
+  text-decoration: none;
+  color: #00bfff;
+}
+.link-blog {
+  color: #f36f24;
+}
+.link-blog:hover,
+.link-blog:focus {
+  text-decoration: none;
+  color: #d8560c;
+}
+.link-linkedin {
+  color: #007bb6;
+}
+.link-linkedin:hover,
+.link-linkedin:focus {
+  text-decoration: none;
+  color: #005983;
+}
+.link-skype {
+  color: #12A5F4;
+}
+.link-skype:hover,
+.link-skype:focus {
+  text-decoration: none;
+  color: #0986ca;
+}
+.link-instagram {
+  color: #e4405f;
+}
+.link-instagram:hover,
+.link-instagram:focus {
+  text-decoration: none;
+  color: #d31e40;
+}
+.link-stackoverflow {
+  color: #8e8e92;
+}
+.link-stackoverflow:hover,
+.link-stackoverflow:focus {
+  text-decoration: none;
+  color: #747479;
+}
+.link-stackexchange {
+  color: #62b0df;
+}
+.link-stackexchange:hover,
+.link-stackexchange:focus {
+  text-decoration: none;
+  color: #389bd6;
+}
+.link-lastfm {
+  color: #d12127;
+}
+.link-lastfm:hover,
+.link-lastfm:focus {
+  text-decoration: none;
+  color: #a51a1f;
+}
+.link-soundcloud {
+  color: #e8822d;
+}
+.link-soundcloud:hover,
+.link-soundcloud:focus {
+  text-decoration: none;
+  color: #cc6916;
+}
+.link-googleplus {
+  color: #dd4b39;
+}
+.link-googleplus:hover,
+.link-googleplus:focus {
+  text-decoration: none;
+  color: #c23321;
+}
+.link-youtube {
+  color: #dd4b39;
+}
+.link-youtube:hover,
+.link-youtube:focus {
+  text-decoration: none;
+  color: #c23321;
+}
+.link-pinterest {
+  color: #bd091f;
+}
+.link-pinterest:hover,
+.link-pinterest:focus {
+  text-decoration: none;
+  color: #8c0717;
+}
+.link-gratipay {
+  color: #630;
+}
+.link-gratipay:hover,
+.link-gratipay:focus {
+  text-decoration: none;
+  color: #331a00;
+}
+.link-vimeo {
+  color: #17b3e8;
+}
+.link-vimeo:hover,
+.link-vimeo:focus {
+  text-decoration: none;
+  color: #128fba;
+}
+.link-behance {
+  color: #2c98cf;
+}
+.link-behance:hover,
+.link-behance:focus {
+  text-decoration: none;
+  color: #2379a5;
+}
+.link-codepen {
+  color: #1c1c1c;
+}
+.link-codepen:hover,
+.link-codepen:focus {
+  text-decoration: none;
+  color: #020202;
+}
+.link-foursquare {
+  color: #fa4778;
+}
+.link-foursquare:hover,
+.link-foursquare:focus {
+  text-decoration: none;
+  color: #f91554;
+}
+.link-reddit {
+  color: #545454;
+}
+.link-reddit:hover,
+.link-reddit:focus {
+  text-decoration: none;
+  color: #3b3b3b;
+}
+.link-spotify {
+  color: #acd200;
+}
+.link-spotify:hover,
+.link-spotify:focus {
+  text-decoration: none;
+  color: #829f00;
+}
+.link-tumblr {
+  color: #2d4661;
+}
+.link-tumblr:hover,
+.link-tumblr:focus {
+  text-decoration: none;
+  color: #1d2d3e;
+}
+.link-dribbble {
+  color: #ce366f;
+}
+.link-dribbble:hover,
+.link-dribbble:focus {
+  text-decoration: none;
+  color: #a82959;
+}
+.link-facebook {
+  color: #4b6daa;
+}
+.link-facebook:hover,
+.link-facebook:focus {
+  text-decoration: none;
+  color: #3b5687;
+}
+.link-angellist {
+  color: black;
+}
+.link-angellist:hover,
+.link-angellist:focus {
+  text-decoration: none;
+  color: #000000;
+}
+.link-bitbucket {
+  color: #205081;
+}
+.link-bitbucket:hover,
+.link-bitbucket:focus {
+  text-decoration: none;
+  color: #163758;
+}
+.link-hackernews {
+  color: #ff6600;
+}
+.link-hackernews:hover,
+.link-hackernews:focus {
+  text-decoration: none;
+  color: #cc5200;
+}
+.link-exercism {
+  color: #d81d4e;
+}
+.link-exercism:hover,
+.link-exercism:focus {
+  text-decoration: none;
+  color: #ab173e;
+}
+.link-blogger {
+  color: #FF9234;
+}
+.link-blogger:hover,
+.link-blogger:focus {
+  text-decoration: none;
+  color: #ff7701;
+}
+.link-medium {
+  color: #00AB6C;
+}
+.link-medium:hover,
+.link-medium:focus {
+  text-decoration: none;
+  color: #00784c;
+}
+.link-flickr {
+  color: black;
+}
+.link-flickr:hover,
+.link-flickr:focus {
+  text-decoration: none;
+  color: #000000;
+}
+.link-telegram {
+  color: #3BABDD;
+}
+.link-telegram:hover,
+.link-telegram:focus {
+  text-decoration: none;
+  color: #2291c3;
+}
+.card-skills {
+  position: relative;
+}
+.skill-level {
+  border-radius: 3px;
+  position: absolute;
+  top: 10px;
+  bottom: 10px;
+  left: 0;
+  width: 10px;
+  box-shadow: inset 0 0 1px rgba(0, 0, 0, 0.2);
+}
+.skill-level .skill-progress {
+  position: absolute;
+  border-radius: 3px;
+  bottom: 0;
+  width: 100%;
+  -webkit-transition: height 1s ease;
+}
+.skill-level .skill-progress.beginner {
+  height: 50%;
+  background: #e74c3c;
+}
+.skill-level .skill-progress.intermediate {
+  height: 70%;
+  background: #f1c40f;
+}
+.skill-level .skill-progress.advanced {
+  height: 80%;
+  background: #428bca;
+}
+.skill-level .skill-progress.master {
+  height: 95%;
+  background: #5cb85c;
+}
+.skill-info {
+  margin-left: 15px;
+}
+@media (max-width: 480px) {
+  .skill-info {
+    margin-left: 20px;
+  }
+}
+@media (max-width: 768px) {
+  .quote {
+    font-size: inherit;
+  }
+}
+.icon-meetup .path2:before {
+  margin-left: 0;
+}
+@media print {
+  @page {
+    size: auto;
+    margin: 10mm 0 10mm 0;
+  }
+  a[href]:after {
+    content: none !important;
+  }
+  .profile-card {
+    text-align: center;
+  }
+  .profile-pic {
+    display: inline-block;
+    vertical-align: middle;
+  }
+  .profile-pic img {
+    border-radius: 0;
+  }
+  .name-and-profession {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 15px;
+  }
+  .contact-details .detail {
+    position: relative;
+    float: left;
+    width: 25%;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding: 0;
+  }
+  .floating-nav,
+  .floating-nav-trigger {
+    display: none;
+  }
+  .detail {
+    page-break-inside: avoid;
+  }
+  .pagebreak {
+    page-break-before: always;
+  }
+  .pagebreak-avoid {
+    page-break-inside: avoid;
+  }
+}
+</style></head><body itemscope="itemscope" itemtype="http://schema.org/Person"><div class="container-fluid"><div class="row main clearfix"><a class="js-floating-nav-trigger floating-nav-trigger" href="#"><i class="icon-bars"></i><span class="close-icon">&times;</span></a><nav class="floating-nav js-floating-nav"><ul class="list-unstyled"><li><a href="#about"><i class="mr-10 icon-board"></i>About</a></li><li><a href="#work-experience"><i class="mr-10 icon-office"></i>Work Experience</a></li><li><a href="#skills"><i class="mr-10 icon-tools"></i>Skills</a></li><li><a href="#education"><i class="mr-10 icon-graduation-cap"></i>Education</a></li><li><a href="#volunteer-work"><i class="mr-10 icon-child"></i>Volunteer Work</a></li><li><a href="#interests"><i class="mr-10 icon-heart"></i>Interests</a></li></ul></nav><section class="col-md-3 card-wrapper profile-card-wrapper affix"><div class="card profile-card"><span class="profile-pic-container"><div class="profile-pic"><img class="media-object img-circle center-block" data-src="holder.js/100x100" alt="Марк Вундер" src="https://avatars3.githubusercontent.com/u/264697?s=460&amp;u=b1cfe9572e7b0d92a2be12274248d98148ae40ff&amp;v=4" itemprop="image"/></div><div class="name-and-profession text-center"><h3 itemprop="name"><b>Марк Вундер</b></h3><h5 class="text-muted" itemprop="jobTitle">Software Engineer</h5></div></span><hr/><div class="contact-details clearfix"><div class="detail"><span class="icon"><i class="icon fs-lg icon-location"></i></span><span class="info">Saint-Petersburg, Saint-Petersburg, RU, CA 94115</span></div><div class="detail"><span class="icon"><i class="icon fs-lg icon-phone"></i></span><span class="info" itemprop="telephone">(912) 555-4321</span></div><div class="detail"><span class="icon"><i class="icon fs-lg icon-mail"></i></span><span class="info"><a class="link-disguise" href="mailto:bigforcegun@gmail.com" itemprop="email">bigforcegun@gmail.com</a></span></div><div class="detail"><span class="icon"><i class="icon fs-lg icon-link"></i></span><span class="info"><a href="https://bigforcegun.com" target="_blank">https://bigforcegun.com</a></span></div><div class="detail"><span class="icon" title="Languages I speak"><i class="icon fs-lg icon-language"></i></span><span class="info">Russian, English</span></div></div><hr/><div class="social-links text-center"><div><a class="fs-2x social-link link-twitter icon-twitter" href="//twitter.com/bigforcegun" target="_blank" data-toggle="tooltip" title="Марк Вундер on Twitter"></a><a class="fs-2x social-link link-gitlab icon-gitlab" href="https://gitlab.com/bigforcegun" target="_blank" data-toggle="tooltip" title="Марк Вундер on Gitlab"><span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span><span class="path5"></span><span class="path6"></span><span class="path7"></span><span class="path8"></span></a><a class="fs-2x social-link link-github icon-github" href="https://github.com/bigforcegun" target="_blank" data-toggle="tooltip" title="Марк Вундер on Github"></a><a class="fs-2x social-link link-telegram icon-telegram" href="https://t.me/bigforcegun" target="_blank" data-toggle="tooltip" title="Марк Вундер on Telegram"></a></div></div></div></section><section class="col-md-9 card-wrapper pull-right"><div class="card background-card"><h4 class="text-uppercase">Background</h4><hr/><div class="background-details"><div class="detail pagebreak-avoid" id="about"><div class="icon"><i class="fs-lg icon-board"></i><span class="mobile-title">About</span></div><div class="info"><h4 class="title text-uppercase">About</h4><div class="card card-nested"><div class="content mop-wrapper" itemprop="description"><p>Привет! Меня зовут Вундер Марк. Живу в Санкт-Петербурге. Мне 29 лет.</p>
+<p>Я специализируюсь на разработке уже 10 лет, из которых 8 лет занимаюсь бекендом и devops. Умею применять технологии к месту. Умею разговаривать с бизнесом на языке бизнеса, с разработкой на языке разработки.</p>
+<p>Одинаково хорошо работаю как на проектах, так и на продукте. Предпочитаю продукт - больше и глубже погружение.</p>
+<h4>Коротко про технологии</h4>
+<ul>
+<li>Легко ориентируюсь в легаси коде</li>
+<li>Умею работать с &quot;плохим&quot; кодом</li>
+<li>Умею писать тесты, и понимаю их цену</li>
+<li>Считаю, что сервис без Dockerfile, .gitlab-ci.yml, git и .editorconfig - не сервис</li>
+<li>Разрабатывал PCI DSS &quot;совместимый&quot; платежный шлюз</li>
+<li>Без метрик мы далеко не уплывем</li>
+<li>CI/CD и Ansible - это необходимо со старта</li>
+<li>Понимаю как работает linux в облаке и на десктопе</li>
+<li>Знаю про сетевые кредиты нв AWS 😜</li>
+<li>Ищу как принести пользу сообществу на основе своего продакшн опыта</li>
+</ul>
+<h4>Профессиональные цели:</h4>
+<ul>
+<li>Повышение квалификации себя и команды</li>
+<li>Работа в сильных командах, обмен опытом</li>
+<li>Создание отличных команд разработки</li>
+<li>Вклад с сообщества инструментов и языков программирования</li>
+</ul>
+</div></div></div></div><div class="detail" id="work-experience"><div class="icon"><i class="fs-lg icon-office"></i><span class="mobile-title">Work Experience</span></div><div class="info"><h4 class="title text-uppercase">Work Experience</h4><ul class="list-unstyled clear-margin"><li class="card card-nested clearfix pagebreak-avoid"><div class="content"><p class="clear-margin relative"><strong>CTO</strong>,&nbsp;KUPIBILET.RU</p><p class="text-muted"><small><span class="space-right">Jan, 2020 - May, 2020</span><span><i class="icon-clock mr-5"></i>4 months</span></small></p><div class="mop-wrapper space-bottom"><p><strong>Обязанности</strong>:</p>
+<ul>
+<li>Руководство b2c IT-департаментом компании</li>
+<li>Разработка и документирование процессов команда-команда</li>
+<li>Работа над процессами взаимодействия бизнеса и IT</li>
+<li>Оптимизация инфраструктуры</li>
+</ul>
+</div><strong>Highlights</strong><ul><li class="mop-wrapper"><p>Онбординг новых команд</p>
+</li><li class="mop-wrapper"><p>Разработка процессов взаимодействия кор и аджайл команд</p>
+</li></ul></div></li><li class="card card-nested clearfix pagebreak-avoid"><div class="content"><p class="clear-margin relative"><strong>Бэкэнд-Тимлид</strong>,&nbsp;KUPIBILET.RU</p><p class="text-muted"><small><span class="space-right">May, 2019 - Jan, 2020</span><span><i class="icon-clock mr-5"></i>8 months</span></small></p><div class="mop-wrapper space-bottom"><p><strong>Обязанности</strong>:</p>
+<ul>
+<li>Руководство командой backend разработки</li>
+<li>Code Review</li>
+<li>Разработка и документация процессов команды</li>
+<li>Интеграция и разработка инструментов команды</li>
+<li>Базовая информационная безопасность</li>
+<li>Agile / Продуктовый спринт пленинг</li>
+</ul>
+<hr>
+</div><strong>Highlights</strong><ul><li class="mop-wrapper"><p>Техлид команды</p>
+</li><li class="mop-wrapper"><p>Интеграция новых утилит, инструментов, ускоривших разработку/дебаг</p>
+</li><li class="mop-wrapper"><p>Оптимизация CI/CD для современных сервисов</p>
+</li><li class="mop-wrapper"><p>Разработка CI/CD для 'легаси' сервисов</p>
+</li><li class="mop-wrapper"><p>Доработка конвенций внутри отдела</p>
+</li><li class="mop-wrapper"><p>Лучший спейс в конфле после техписов, задокументированы флоу всех процессов, как разработки, так и взаимодействия с бизнесом</p>
+</li><li class="mop-wrapper"><p>Оптимизация инфраструктуры/серверной части бекенда компании</p>
+</li></ul></div></li><li class="card card-nested clearfix pagebreak-avoid"><div class="content"><p class="clear-margin relative"><strong>Backend программист</strong>,&nbsp;KUPIBILET.RU</p><p class="text-muted"><small><span class="space-right">Jan, 2017 - May, 2019</span><span><i class="icon-clock mr-5"></i>2 years 4 months</span></small></p><div class="mop-wrapper space-bottom"><p><strong>Обязанности</strong>:</p>
+<ul>
+<li>Разработка и поддержка сервисов компании</li>
+<li>Backend - rails &amp; Ruby</li>
+<li>Code Review</li>
+<li>CI/CD</li>
+</ul>
+</div><strong>Highlights</strong><ul><li class="mop-wrapper"><p>Техлид команды</p>
+</li><li class="mop-wrapper"><p>Опыт разработки платежных шлюзов и интеграций с апи на уровне стандарта PCI DSS</p>
+</li><li class="mop-wrapper"><p>Подготовка проекта к соответствию стандарту PCI DSS</p>
+</li><li class="mop-wrapper"><p>Интеграция CI/CD в сервисы разных типов</p>
+</li><li class="mop-wrapper"><p>Расследование инцидентов падения/плохого поведения инфраструктуры</p>
+</li><li class="mop-wrapper"><p>Разработка метрик и интеграция системы мониторинга</p>
+</li><li class="mop-wrapper"><p>Разработка внутренних сервисов/ботов компании</p>
+</li></ul></div></li><li class="card card-nested clearfix pagebreak-avoid"><div class="content"><p class="clear-margin relative"><strong>Программист</strong>,&nbsp;Викинг Ритейл</p><p class="text-muted"><small><span class="space-right">May, 2014 - May, 2017</span><span><i class="icon-clock mr-5"></i>3 years</span></small></p><div class="mop-wrapper space-bottom"><p><strong>Обязанности</strong>:</p>
+<ul>
+<li>Разработка и поддержка сервисов компании</li>
+<li>Backend-программист Ruby</li>
+<li>Frontend-программист JavaScript</li>
+<li>Backend-программист PHP</li>
+<li>Code review</li>
+<li>CI/CD</li>
+</ul>
+</div><strong>Highlights</strong><ul><li class="mop-wrapper"><p>Техлид команды</p>
+</li><li class="mop-wrapper"><p>Оптимизация и улучшение процессов разработки в компании (CI/CD)</p>
+</li><li class="mop-wrapper"><p>Опыт разработки сложного ecommerce распределенного движка</p>
+</li></ul></div></li><li class="card card-nested clearfix pagebreak-avoid"><div class="content"><p class="clear-margin relative"><strong>Программист</strong>,&nbsp;BonusBox</p><p class="text-muted"><small><span class="space-right">Jun, 2012 - Feb, 2016</span><span><i class="icon-clock mr-5"></i>3 years 8 months</span></small></p><div class="mop-wrapper space-bottom"><p><strong>Обязанности</strong>:</p>
+<ul>
+<li>Разработка продукта с нуля</li>
+<li>Backend-программист Ruby on Rails</li>
+<li>Backend-программист JavaScript</li>
+<li>Frontend-программист JavaScript</li>
+<li>Code review</li>
+</ul>
+</div><strong>Highlights</strong><ul><li class="mop-wrapper"><p>Техлид команды</p>
+</li><li class="mop-wrapper"><p>Опыт разработки продукта с нуля</p>
+</li><li class="mop-wrapper"><p>Опыт работы над огромным количеством разных интеграций</p>
+</li><li class="mop-wrapper"><p>Полноценный раздел для сторонних разработчиков + API документация</p>
+</li></ul></div></li><li class="card card-nested clearfix pagebreak-avoid"><div class="content"><p class="clear-margin relative"><strong>Программист</strong>,&nbsp;Планета Софт</p><p class="text-muted"><small><span class="space-right">Jan, 2012 - Dec, 2012</span><span><i class="icon-clock mr-5"></i>11 months</span></small></p><div class="mop-wrapper space-bottom"><p><strong>Обязанности</strong>:</p>
+<ul>
+<li>Разработка и поддержка сервисов компании</li>
+<li>Backend-программист PHP</li>
+<li>Backend-программист JavaScript</li>
+<li>Frontend-программист JavaScript</li>
+</ul>
+</div><strong>Highlights</strong><ul><li class="mop-wrapper"><p>Поддержка продуктов компании</p>
+</li><li class="mop-wrapper"><p>Разработка решений для интеграции продуктов компании в другие веб приложения</p>
+</li></ul></div></li><li class="card card-nested clearfix pagebreak-avoid"><div class="content"><p class="clear-margin relative"><strong>Программист</strong>,&nbsp;To4kaRu</p><p class="text-muted"><small><span class="space-right">Jun, 2011 - Aug, 2011</span><span><i class="icon-clock mr-5"></i>2 months</span></small></p><div class="mop-wrapper space-bottom"><p><strong>Обязанности</strong>:</p>
+<ul>
+<li>Разработка сайтов и проектов на заказ</li>
+<li>Backend-программист PHP</li>
+<li>Frontend-программист JavaScript</li>
+<li>Проект менеджер</li>
+</ul>
+</div><strong>Highlights</strong><ul><li class="mop-wrapper"><p>Опыт разработки единой системы для разработки и управления сайтами проектов</p>
+</li></ul></div></li><li class="card card-nested clearfix pagebreak-avoid"><div class="content"><p class="clear-margin relative"><strong>Программист</strong>,&nbsp;Томстудио</p><p class="text-muted"><small><span class="space-right">Jun, 2011 - Aug, 2011</span><span><i class="icon-clock mr-5"></i>2 months</span></small></p><div class="mop-wrapper space-bottom"><p><strong>Обязанности</strong>:</p>
+<ul>
+<li>Разработка сайтов и проектов на заказ</li>
+<li>Backend-программист PHP</li>
+<li>Frontend-программист JavaScript</li>
+</ul>
+</div></div></li><li class="card card-nested clearfix pagebreak-avoid"><div class="content"><p class="clear-margin relative"><strong>Программист</strong>,&nbsp;МОПСС</p><p class="text-muted"><small><span class="space-right">Sep, 2010 - Jun, 2011</span><span><i class="icon-clock mr-5"></i>9 months</span></small></p><div class="mop-wrapper space-bottom"><p><strong>Обязанности</strong>:</p>
+<ul>
+<li>Разработка сайтов и проектов на заказ</li>
+<li>Backend-программист PHP</li>
+<li>Frontend-программист JavaScript</li>
+</ul>
+</div></div></li><li class="card card-nested clearfix pagebreak-avoid"><div class="content"><p class="clear-margin relative"><strong>Инженер</strong>,&nbsp;ЦОИ петроградского района</p><p class="text-muted"><small><span class="space-right">Dec, 2012 - Dec, 2013</span><span><i class="icon-clock mr-5"></i>1 year</span></small></p><div class="mop-wrapper space-bottom"><p><strong>Обязанности</strong>:</p>
+<ul>
+<li>штатный инженер</li>
+<li>backend-программист PHP</li>
+<li>desktop-программист MS BASIC &amp;&amp; Delphi</li>
+<li>Техническая поддержка парка машин</li>
+</ul>
+</div><strong>Highlights</strong><ul><li class="mop-wrapper"><p>Опыт разработки базы данных для учета учеников района</p>
+</li><li class="mop-wrapper"><p>Опыт оптимизации администрирования большого распределенного парка машин</p>
+</li></ul></div></li></ul></div></div><div class="detail" id="skills"><div class="icon"><i class="fs-lg icon-tools"></i><span class="mobile-title">Skills</span></div><div class="info"><h4 class="title text-uppercase">Skills</h4><div class="content"><ul class="list-unstyled clear-margin"><li class="card card-nested card-skills"><div class="skill-info"><strong>Team Work</strong><div class="space-top labels"><span class="label label-keyword">Trello</span><span class="label label-keyword">Slack</span><span class="label label-keyword">Slack Bots and Integrations</span><span class="label label-keyword">Github</span><span class="label label-keyword">Gitlab</span><span class="label label-keyword">Jira</span><span class="label label-keyword">Redmine</span><span class="label label-keyword">Confluence</span><span class="label label-keyword">Git book/Other document generators</span><span class="label label-keyword">MD</span></div></div></li><li class="card card-nested card-skills"><div class="skill-info"><strong>Development</strong><div class="space-top labels"><span class="label label-keyword">Tests</span><span class="label label-keyword">Documentation</span><span class="label label-keyword">Service Monolith</span><span class="label label-keyword">Type Checking</span><span class="label label-keyword">Microservices</span><span class="label label-keyword">Bash</span><span class="label label-keyword">MD</span><span class="label label-keyword">Api Clients</span></div></div></li><li class="card card-nested card-skills"><div class="skill-info"><strong>Backend Development</strong><div class="space-top labels"><span class="label label-keyword">Javascript</span><span class="label label-keyword">Ruby</span><span class="label label-keyword">OpenApi</span><span class="label label-keyword">Public Access Api</span><span class="label label-keyword">Cache</span><span class="label label-keyword">Message Broker</span><span class="label label-keyword">Microservices</span><span class="label label-keyword">RabbitMQ</span><span class="label label-keyword">Team tools</span></div></div></li><li class="card card-nested card-skills"><div class="skill-info"><strong>Javascript Development</strong><div class="space-top labels"><span class="label label-keyword">Express</span><span class="label label-keyword">Koa</span><span class="label label-keyword">STRAPI</span><span class="label label-keyword">Socket.io</span><span class="label label-keyword">Cli-tools</span></div></div></li><li class="card card-nested card-skills"><div class="skill-info"><strong>Ruby Development</strong><div class="space-top labels"><span class="label label-keyword">Ruby</span><span class="label label-keyword">Rails</span><span class="label label-keyword">Hanami</span><span class="label label-keyword">Roda</span><span class="label label-keyword">Dry-rb</span><span class="label label-keyword">rom/sequel</span><span class="label label-keyword">Cli-tools</span></div></div></li><li class="card card-nested card-skills"><div class="skill-info"><strong>Devops</strong><div class="space-top labels"><span class="label label-keyword">AWS</span><span class="label label-keyword">Gitlab CI/CD</span><span class="label label-keyword">Boot/core config</span><span class="label label-keyword">Systemd</span><span class="label label-keyword">Ansible</span><span class="label label-keyword">Docker</span><span class="label label-keyword">Docker-swarm</span><span class="label label-keyword">Docker-compose</span><span class="label label-keyword">Stack optimisation</span></div></div></li><li class="card card-nested card-skills"><div class="skill-info"><strong>Monitoring</strong><div class="space-top labels"><span class="label label-keyword">Prometheus</span><span class="label label-keyword">Grafana</span><span class="label label-keyword">ELK</span><span class="label label-keyword">EFK</span></div></div></li><li class="card card-nested card-skills"><div class="skill-info"><strong>Data Base</strong><div class="space-top labels"><span class="label label-keyword">Postgresql</span><span class="label label-keyword">MongoDb</span><span class="label label-keyword">memcached</span><span class="label label-keyword">Redis</span><span class="label label-keyword">Elastic-search</span><span class="label label-keyword">Sqlite</span></div></div></li><li class="card card-nested card-skills"><div class="skill-info"><strong>Team Lead</strong><div class="space-top labels"><span class="label label-keyword">Team flow</span><span class="label label-keyword">Development flow</span><span class="label label-keyword">Documenting</span><span class="label label-keyword">Code Review</span><span class="label label-keyword">Team tools</span><span class="label label-keyword">Base info sec</span></div></div></li><li class="card card-nested card-skills"><div class="skill-info"><strong>CTO</strong><div class="space-top labels"><span class="label label-keyword">Team to Team flow</span><span class="label label-keyword">Development to Business flow</span><span class="label label-keyword">Documenting</span><span class="label label-keyword">Infrastructure Optimisation</span><span class="label label-keyword">Industry standards</span></div></div></li></ul></div></div></div><div class="detail" id="education"><div class="icon"><i class="fs-lg icon-graduation-cap"></i><span class="mobile-title">Education</span></div><div class="info"><h4 class="title text-uppercase">Education</h4><div class="content"><ul class="list-unstyled clear-margin"><li class="card card-nested"><div class="content"><p class="clear-margin relative"><strong>Факультет: Информационных технологий, Бакалавр,&nbsp;</strong>РГПУ им. А.И. Герцена</p><p class="text-muted"><small>Sep, 2008 - Jun, 2010</small></p><i>0</i><div class="space-top labels"><span class="label label-keyword">Разработка программного обеспечения</span><span class="label label-keyword">Работа с базами данных</span><span class="label label-keyword">Web разработка</span><span class="label label-keyword">Десктоп разработка</span></div></div></li></ul></div></div></div><div class="detail" id="volunteer-work"><div class="icon"><i class="fs-lg icon-child"></i><span class="mobile-title">Volunteer Work</span></div><div class="info"><h4 class="title text-uppercase">Volunteer Work</h4><div class="content"><ul class="list-unstyled clear-margin"><li class="card card-nested"><div class="content"><p class="clear-margin relative"><strong>Вожатый, </strong>Спортивные детские лагеря</p><p class="text-muted"><small>Sep, 2005 - Jun, 2010</small></p><div class="mop-wrapper"><p>Вожатство в различных детских лагерях.</p>
+</div></div></li><li class="card card-nested"><div class="content"><p class="clear-margin relative"><strong>Репетитор, </strong>Мир Репетиторов</p><p class="text-muted"><small>Sep, 2008 - Jan, 2013</small></p><div class="mop-wrapper"><p>Услуги репетитора. Репетиторство в школе.</p>
+</div></div></li></ul></div></div></div><div class="detail" id="interests"><div class="icon"><i class="fs-lg icon-heart"></i><span class="mobile-title">Interests</span></div><div class="info"><h4 class="title text-uppercase">Interests</h4><div class="content"><ul class="list-unstyled clear-margin"><li class="card card-nested"><p><strong>Иностранные языки</strong></p><div class="space-top labels"><span class="label label-keyword">Английский</span><span class="label label-keyword">Немецкий</span></div></li><li class="card card-nested"><p><strong>Программирование</strong></p><div class="space-top labels"><span class="label label-keyword">Crystal</span><span class="label label-keyword">Lua</span><span class="label label-keyword">Golang</span><span class="label label-keyword">Elixir</span><span class="label label-keyword">Microservices</span><span class="label label-keyword">Cli-tools</span><span class="label label-keyword">Slack/telegram bots</span><span class="label label-keyword">Mods for games and pet games</span></div></li><li class="card card-nested"><p><strong>Путешествия</strong></p><div class="space-top labels"><span class="label label-keyword">Европа</span><span class="label label-keyword">Азия</span></div></li></ul></div></div></div></div></div></section></div></div><script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/js/bootstrap.min.js"></script><script>$(function () {
+  var toggleFloatingMenu = function() {
+    $( '.js-floating-nav' ).toggleClass( 'is-visible' );
+    $( '.js-floating-nav-trigger' ).toggleClass( 'is-open' );
+  };
+
+  $( ".background-card" ).css( "min-height", window.screen.availHeight + "px" );
+  $( "[data-toggle=tooltip]" ).tooltip();
+  $( '.js-floating-nav-trigger' ).on( 'click', function(e) {
+    e.preventDefault();
+    toggleFloatingMenu();
+  });
+  $( '.js-floating-nav a' ).on( 'click', toggleFloatingMenu );
+
+  $("#remaining-profiles").on('show.bs.collapse', function() {
+    $( '.js-profiles-collapse > i' )
+      .removeClass( 'icon-chevron-down' )
+      .addClass( 'icon-chevron-up' );
+  });
+
+  $("#remaining-profiles").on('hidden.bs.collapse', function() {
+    $( '.js-profiles-collapse > i' )
+      .removeClass( 'icon-chevron-up' )
+      .addClass( 'icon-chevron-down' );
+  });
+});
+</script><script>WebFontConfig = {
+  google: { families: [ 'Lato:300,400,700:latin' ] }
+};
+(function() {
+  var wf = document.createElement('script');
+  wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
+    '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+  wf.type = 'text/javascript';
+  wf.async = 'true';
+  var s = document.getElementsByTagName('script')[0];
+  s.parentNode.insertBefore(wf, s);
+})();</script></body></html>
