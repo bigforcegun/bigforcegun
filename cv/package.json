@@ -12,8 +12,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "serve": "./node_modules/.bin/resume serve -t elegant",
-    "export-pdf": "RESUME_PUPPETEER_NO_SANDBOX=true ./node_modules/.bin/resume export -t elegant-bigforcegun build/resume.pdf",
     "debug-pdf": "npm run export-pdf && xdg-open build/resume.pdf",
+    "debug-html": "npm run export-html && xdg-open build/resume.html",
+    "export-pdf": "RESUME_PUPPETEER_NO_SANDBOX=true ./node_modules/.bin/resume export -t elegant-bigforcegun build/resume.pdf",
     "export-html": "./node_modules/.bin/resume export -t elegant-bigforcegun build/resume.html",
     "export-md": "./node_modules/.bin/hackmyresume build resume.json TO build/resume.md",
     "export-all": "./bin/export-all",
