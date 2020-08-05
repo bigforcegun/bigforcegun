@@ -8,9 +8,13 @@ You can see a short portfolio on the following resources
 - [career.habr.com](https://career.habr.com/bigforcegun)
 - [linkedin](https://www.linkedin.com/in/bigforcegun/)
 -->
-## Precompiled Files
+## Short version
 
-Just open [MD](build/resume.md), [PDF](build/resume.pdf) or [HTML](build/resume.html) version
+[PDF here](build/resume.short.ru.pdf)
+
+## Detailed version
+
+Open [MD](build/resume.full.md), [PDF](build/resume.full.pdf) or [HTML](build/resume.full.html)
 
 ## Compile and analyse
 

@@ -6,17 +6,19 @@
   "dependencies": {
     "hackmyresume": "^1.9.0-beta",
     "jsonresume-theme-elegant-bigforcegun": "github:bigforcegun/jsonresume-theme-elegant#master",
+    "jsonresume-theme-short-bigforcegun": "github:bigforcegun/jsonresume-theme-short#master",
     "resume-cli": "^1.2.8"
   },
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "serve": "./node_modules/.bin/resume serve -t elegant",
-    "debug-pdf": "npm run export-pdf && xdg-open build/resume.pdf",
-    "debug-html": "npm run export-html && xdg-open build/resume.html",
-    "export-pdf": "RESUME_PUPPETEER_NO_SANDBOX=true ./node_modules/.bin/resume export -t elegant-bigforcegun build/resume.pdf",
-    "export-html": "./node_modules/.bin/resume export -t elegant-bigforcegun build/resume.html",
-    "export-md": "./node_modules/.bin/hackmyresume build resume.json TO build/resume.md",
+    "debug-pdf": "npm run export-pdf && xdg-open build/resume.full.pdf",
+    "debug-html": "npm run export-html && xdg-open build/resume.full.html",
+    "export-pdf": "RESUME_PUPPETEER_NO_SANDBOX=true ./node_modules/.bin/resume export -t elegant-bigforcegun build/resume.full.pdf",
+    "export-html": "./node_modules/.bin/resume export -t elegant-bigforcegun build/resume.full.html",
+    "export-md": "./node_modules/.bin/hackmyresume build resume.json TO build/resume.full.md",
+    "export-ru-short-pdf": "LAST_WORK=5 LANGUAGE=ru RESUME_PUPPETEER_NO_SANDBOX=true ./node_modules/.bin/resume export -t short-bigforcegun build/resume.short.ru.pdf",
     "export-all": "./bin/export-all",
     "analyze": "./node_modules/.bin/hackmyresume analyze resume.json"
   },
