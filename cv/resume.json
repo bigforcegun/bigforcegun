@@ -4,10 +4,10 @@
     "label": "Software Engineer",
     "picture": "https://avatars3.githubusercontent.com/u/264697?s=460&u=b1cfe9572e7b0d92a2be12274248d98148ae40ff&v=4",
     "email": "bigforcegun@gmail.com",
-    "phone": "(912) 555-4321",
+    "phone": "7 (921) 7925547",
     "website": "https://bigforcegun.com",
-    "summary": "Привет! Меня зовут Вундер Марк. Живу в Санкт-Петербурге. Мне 29 лет.\n\nСпециализируюсь на разработке уже 10 лет, из которых 8 лет глубоко погружен в backend и devops. \n\nВ последнее время занимаюсь платежными движками, интересуюсь TravelTech и FinTech сферами.\n\n#### Коротко:\n\n- Легко ориентируюсь в легаси коде\n- Умею работать с \"плохим\" кодом\n- Пишу тесты, и понимаю их цену\n- Считаю, что сервис без Dockerfile, .gitlab-ci.yml, git и .editorconfig - не сервис\n- Есть опыт прохождения сертификации PCI-DSS\n- Могу разработать систему метрик, как бизнес, так и инфраструктурных\n- CI/CD и Ansible - необходимы со старта\n- Понимаю как работает linux в облаке и на десктопе\n- Знаю про сетевые кредиты на AWS \uD83D\uDE1C\n- Ищу как принести пользу сообществу\n\n#### Профессиональные цели:\n\n- Оптимизация работы команды/тулинг\n- Обмен опытом\n- Вклад в сообщества инструментов и языков программирования",
-    "summary_short": "Специализируюсь на разработке уже 10 лет, из которых 8 лет глубоко погружен в backend и devops. \n\nВ последнее время занимаюсь платежными движками, интересуюсь TravelTech и FinTech сферами.\n",
+    "summary": "Привет! Меня зовут Марк. Мне 30 лет.\n\nСпециализируюсь на разработке уже 11 лет, из которых 9 лет глубоко погружен в backend и devops. \n\nВ последнее время в основном занимаюсь платежными и антифрод системами, интересуюсь асинхронными событийными архитектурами.\n\n#### Коротко:\n\n- Умею работать с легаси и \"плохим\" кодом\n- Пишу тесты, и понимаю их цену\n- Могу разработать систему метрик, как фитнес функций для приложения, так и инфраструктурных\n- CI/CD и IaC - наши лучшие друзья\n- Понимаю как работает linux в облаке и на десктопе\n- Есть опыт прохождения сертификации PCI-DSS\n- Умею разговаривать с бизнесом\n\n#### Профессиональные цели:\n\n- Развиваться как разработчик и руководитель\n- Проектировать и разрабатывать асинхронные событийные системы\n- Рассказывать о своем опыте сообществу",
+    "summary_short": "Специализируюсь на разработке уже 11 лет, из которых 9 лет глубоко погружен в backend и devops.\n\nВ последнее время в основном занимаюсь платежными и антифрод системами, интересуюсь асинхронными событийными архитектурами.",
     "location": {
       "address": "",
       "postalCode": "",
@@ -19,7 +19,7 @@
       {
         "network": "Twitter",
         "username": "bigforcegun",
-        "url": ""
+        "url": "https://twitter.com/bigforcegun"
       },
       {
         "network": "Gitlab",
@@ -40,6 +40,24 @@
   },
   "projects": [
     {
+      "name": "umbrellio.biz",
+      "description": "Разработка и поддержка бек-офис приложений",
+      "keywords": [
+        "Ruby",
+        "Ruby on Rails",
+        "PostgreSql",
+        "Sidekiq",
+        "Microservices",
+        "Antifraud",
+        "KYC"
+      ],
+      "roles": [
+        "Разработчик",
+        "Тимлид"
+      ],
+      "type": "application"
+    },
+    {
       "name": "kupibilet.ru",
       "description": "Продажа авиабилетов онлайн",
       "keywords": [
@@ -57,11 +75,7 @@
       ],
       "roles": [
         "Разработчик",
-        "Тимлид",
-        "CTO"
-      ],
-      "highlights": [
-        ""
+        "Тимлид"
       ],
       "type": "application"
     },
@@ -80,9 +94,6 @@
         "Техлид",
         "Devops"
       ],
-      "highlights": [
-        ""
-      ],
       "type": "application"
     },
     {
@@ -92,16 +103,13 @@
         "Ruby",
         "JavaScript",
         "Mysql",
-        "Postgresql",
+        "PostgreSql",
         "PHP"
       ],
       "roles": [
         "Разработчик",
         "Техлид",
         "Devops"
-      ],
-      "highlights": [
-        ""
       ],
       "type": "application"
     },
@@ -118,9 +126,6 @@
       "roles": [
         "Разработчик"
       ],
-      "highlights": [
-        ""
-      ],
       "type": "application"
     }
   ],
@@ -128,15 +133,46 @@
   ],
   "work": [
     {
+      "company": "UMBRELLIO",
+      "position": "Тимлид",
+      "website": "https://umbrellio.biz",
+      "startDate": "2021-06-01",
+      "endDate": "",
+      "summary": "**Обязанности**:\n- Руководство командой\n- Code Review\n- Планирование разработки\n- Разработка новых сервисов",
+      "highlights": [
+        "Спроектировал архитектуру бекенда и фронтенда сервиса KYC",
+        "Создал Event Storming модель процессов верификации пользователя",
+        "Интегрировал CI/CD, настроил процесс разработки внутри команды",
+        "Нанял команду с нуля"
+      ],
+      "_highlights": [
+        "Разработал сервис KYC",
+        "Мигрировал бизнес процесс верификации пользователей на новый сервис"
+      ]
+    },
+    {
+      "company": "UMBRELLIO",
+      "position": "Backend программист",
+      "website": "https://umbrellio.biz",
+      "startDate": "2020-10-12",
+      "endDate": "2021-06-01",
+      "summary": "**Обязанности**:\n- Code Review \n- Разработка и поддержка системы антифрода",
+      "highlights": [
+        "Разработал и интегрировал систему динамических правил антифрода",
+        "Оптимизация CI/CD - ускорение пайплайнов на две минуты",
+        "Разработал систему автоматической проверки документов пользователя"
+      ]
+    },
+    {
       "company": "KUPIBILET.RU",
       "position": "Backend Тимлид",
-      "_website": "https://kupiblet.ru",
+      "website": "https://kupiblet.ru",
       "startDate": "2019-05-01",
       "endDate": "2020-05-22",
       "summary": "**Обязанности**: \n- Руководство командой backend разработки\n- Code Review \n- Разработка и документация процессов команды \n- Планирование и ведение спринтов\n- Разработка и поддержка сервисов компании",
       "highlights": [
         "Внедрил Sentry, ELK и другие инструменты для дебага - скорость реагирования на баги выросла в несколько раз",
-        "Оптимизация CI/CD - ускорение пайплайнов на 20-30%",
+        "Оптимизировал CI/CD - ускорение пайплайнов на 20-30%",
         "Интегрировал CI/CD в существующие сервисы",
         "Внедрил staging для api на основе docker и traefik - ускорение обкатки и тестирования задач в несколько раз",
         "Создал подробную wiki отдела на 150 страниц - задокументированы все процессы, как разработки, так и взаимодействия с бизнесом",
@@ -147,7 +183,7 @@
     {
       "company": "KUPIBILET.RU",
       "position": "Backend программист",
-      "_website": "https://kupiblet.ru",
+      "website": "https://kupiblet.ru",
       "startDate": "2017-01-01",
       "endDate": "2019-05-01",
       "summary": "**Обязанности**: \n- Разработка и поддержка сервисов компании\n- Backend программист - Rails & Ruby\n- Code Review",
@@ -166,7 +202,7 @@
     {
       "company": "Викинг Ритейл",
       "position": "Программист",
-      "_website": "http://piedpiper.com",
+      "website": "http://piedpiper.com",
       "startDate": "2014-05-01",
       "endDate": "2017-05-01",
       "summary": "**Обязанности**: \n- Разработка и поддержка сервисов компании\n- Backend-программист Ruby \n- Backend-программист PHP \n- Code review \n- Devops\n",
@@ -179,7 +215,7 @@
     {
       "company": "BonusBox",
       "position": "Программист",
-      "_website": "http://piedpiper.com",
+      "_website": "http://bonux-box.info",
       "startDate": "2012-06-01",
       "endDate": "2016-02-01",
       "summary": "**Обязанности**: \n- Разработка продукта с нуля\n- Backend-программист Ruby on Rails \n- Backend-программист JavaScript \n- Devops\n- Code review",
@@ -233,8 +269,8 @@
       "company": "ЦОИ петроградского района",
       "position": "Инженер",
       "_website": "http://piedpiper.com",
-      "startDate": "2012-12-01",
-      "endDate": "2013-12-01",
+      "startDate": "2009-09-01",
+      "endDate": "2011-06-01",
       "summary": "**Обязанности**: \n- Штатный инженер\n- Backend-программист PHP \n- Desktop-программист MS BASIC && Delphi\n- Техническая поддержка парка машин",
       "highlights": [
         "Разработал базу данных для учета учеников района",
@@ -246,7 +282,7 @@
     {
       "organization": "Спортивные детские лагеря",
       "position": "Вожатый",
-      "_website": "http://coderdojo.com/",
+      "_website": "",
       "startDate": "2005-09-01",
       "endDate": "2010-06-01",
       "summary": "Вожатство в различных детских лагерях.",
@@ -255,7 +291,7 @@
     {
       "organization": "Мир Репетиторов",
       "position": "Репетитор",
-      "_website": "http://coderdojo.com/",
+      "_website": "",
       "startDate": "2008-09-01",
       "endDate": "2013-01-01",
       "summary": "Услуги репетитора. Репетиторство в школе.",
@@ -290,6 +326,7 @@
         "Github",
         "Gitlab",
         "Jira",
+        "Miro",
         "Redmine",
         "Confluence",
         "Git book/Other document generators",
@@ -316,13 +353,13 @@
       "keywords": [
         "Javascript",
         "Ruby",
-        "OpenApi",
-        "Public Access Api",
+        "OpenAPI",
+        "Public Access API",
         "Cache",
-        "Message Broker",
+        "Message Bus",
         "Microservices",
         "RabbitMQ",
-        "Team tools"
+        "Events"
       ]
     },
     {
@@ -345,7 +382,10 @@
         "Hanami",
         "Roda",
         "Dry-rb",
-        "rom/sequel",
+        "Rom.rb",
+        "Sequel",
+        "Rspec",
+        "Sidekiq",
         "Cli-tools"
       ]
     },
@@ -355,32 +395,34 @@
       "keywords": [
         "AWS",
         "Gitlab CI/CD",
-        "Boot/core config",
         "Systemd",
         "Ansible",
         "Docker",
-        "Docker-swarm",
+        "Terraform",
         "Docker-compose",
         "Stack optimisation"
       ]
     },
     {
-      "name": "Monitoring",
+      "name": "Observability",
       "level": "Middle",
       "keywords": [
         "Prometheus",
         "Grafana",
         "ELK",
-        "EFK"
+        "Telegraf",
+        "Sentry",
+        "Jaeger"
       ]
     },
     {
       "name": "Data Base",
       "level": "Middle",
       "keywords": [
-        "Postgresql",
+        "PostgreSql",
+        "MySql/MariaDB",
         "MongoDb",
-        "memcached",
+        "Memcached",
         "Redis",
         "Elastic-search",
         "Sqlite"
@@ -395,18 +437,9 @@
         "Documenting",
         "Code Review",
         "Team tools",
-        "Base info sec"
-      ]
-    },
-    {
-      "name": "CTO",
-      "level": "Junior",
-      "keywords": [
-        "Team to Team flow",
-        "Development to Business flow",
-        "Documenting",
-        "Infrastructure Optimisation",
-        "Industry standards"
+        "ITSec",
+        "Scrum",
+        "Kanban"
       ]
     }
   ],
@@ -417,7 +450,7 @@
     },
     {
       "language": "English",
-      "fluency": "B1"
+      "fluency": "B2"
     }
   ],
   "interests": [
