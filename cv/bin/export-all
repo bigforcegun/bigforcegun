@@ -2,5 +2,4 @@
 
 npm run export-pdf
 npm run export-html
-npm run export-md
 npm run export-ru-short-pdf
